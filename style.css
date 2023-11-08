@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    font-size: 52px;
+    color: #000000;
+    font-family: calibri;
+    margin-bottom: 12px;
+}
+
+.microsoft{
+    width: 350px;
+    margin: 25px auto;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 0, 0);
+}
+
+.blue{
+    width: 150px;
+    height: 150px;
+    background: rgb(0, 0, 255);
+}
+
+.green{
+    width: 150px;
+    height: 150px;
+    background: rgb(0, 255, 0);
+}
+
+.yellow{
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 255, 0);
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
